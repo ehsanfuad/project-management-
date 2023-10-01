@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "vazirMedium";
+  direction: rtl;
+  margin: 0;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+@font-face {
+  font-family: "iransans";
+  src: local("iransans"), url(IRANSansWeb.woff2) format("woff2");
+}
+@font-face {
+  font-family: "iransansLight";
+  src: local("iransans"), url(IRANSansWeb_Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "iransansUltraLight";
+  src: local("iransans"), url(IRANSansWeb_UltraLight.woff2) format("woff2");
+}
+@font-face {
+  font-family: "iransansMedium";
+  src: local("iransans"), url(IRANSansWeb_Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "iransansBold";
+  src: local("iransans"), url(IRANSansWeb_Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "iransansBlack";
+  src: local("iransans"), url(IRANSansWeb_Black.woff2) format("woff2");
+}
+@font-face {
+  font-family: "vazir";
+  src: local("vazir"), url(Vazirmatn-FD-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "vazirn";
+  src: local("vazirn"), url(Vazirmatn-FD-NL-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "iransansNum";
+  src: local("iransansNum"), url(IRANSansFaNum.ttf) format("ttf");
+}
+@font-face {
+  font-family: "vazirMedium";
+  src: local("vazirMedium"), url(Vazir-Medium-FD-WOL.woff2) format("woff2");
+}
